@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.example.com/library"
+         xsi:schemaLocation="http://www.example.com/library library.xsd">
+    <book>
+        <id>1</id>
+        <name>Evenings on a farm near Dikanka</name>
+        <author_id>
+            <author_id>1</author_id>
+            <author_name>Gogol N.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>1</genre_id>
+            <genre_name>novelet</genre_name>
+        </genre_id>
+        <isbn>2-23-456789-2</isbn>
+    </book>
+    <book>
+        <id>2</id>
+        <name>Gone with the wind</name>
+        <author_id>
+            <author_id>2</author_id>
+            <author_name>Mitchell M.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>2</genre_id>
+            <genre_name>novel</genre_name>
+        </genre_id>
+        <isbn>4-23-675830-9</isbn>
+    </book>
+    <book>
+        <id>3</id>
+        <name>1984</name>
+        <author_id>
+            <author_id>3</author_id>
+            <author_name>Orwell G.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>3</genre_id>
+            <genre_name>anti utopia</genre_name>
+        </genre_id>
+        <isbn>2-34-232345-6</isbn>
+    </book>
+    <book>
+        <id>4</id>
+        <name>The Hobbit</name>
+        <author_id>
+            <author_id>4</author_id>
+            <author_name>Tolkien J.R.R.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>1</genre_id>
+            <genre_name>novelet</genre_name>
+        </genre_id>
+        <isbn>7-89-234512-9</isbn>
+    </book>
+    <book>
+        <id>5</id>
+        <name>The legend of sleepy hollow</name>
+        <author_id>
+            <author_id>5</author_id>
+            <author_name>Irving W.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>4</genre_id>
+            <genre_name>horror</genre_name>
+        </genre_id>
+        <isbn>9-89-561917-2</isbn>
+    </book>
+    <book>
+        <id>6</id>
+        <name>Lord of the ring</name>
+        <author_id>
+            <author_id>4</author_id>
+            <author_name>Tolkien J.R.R.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>5</genre_id>
+            <genre_name>fantasy</genre_name>
+        </genre_id>
+        <isbn>1-10-216789-4</isbn>
+    </book>
+    <book>
+        <id>7</id>
+        <name>The Master and Margarita</name>
+        <author_id>
+            <author_id>6</author_id>
+            <author_name>Bulgakov M.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>2</genre_id>
+            <genre_name>novel</genre_name>
+        </genre_id>
+        <isbn>1-13-131313-6</isbn>
+    </book>
+    <book>
+        <id>8</id>
+        <name>The Genius</name>
+        <author_id>
+            <author_id>7</author_id>
+            <author_name>Dreiser T.</author_name>
+        </author_id>
+        <genre_id>
+            <genre_id>2</genre_id>
+            <genre_name>novel</genre_name>
+        </genre_id>
+        <isbn>8-44-122856-9</isbn>
+    </book>
+</library>
