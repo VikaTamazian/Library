@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/1999/XSL/Transform"
+        targetNamespace="http://www.example.com/library"
+        xmlns:tns="http://www.example.com/library"
+        elementFormDefault="qualified">
+    <element name="library">
+        <complexType>
+            <sequence>
+                <element name="book" type="tns:book" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="book">
+        <sequence>
+            <element name="id" type="tns:id"/>
+            <element name="name" type="string"/>
+            <element name="author_id" type="tns:author"/>
+            <element name="genre_id" type="tns:genre"/>
+            <element name="isbn" type="string"/>
+        </sequence>
+    </complexType>
+    <complexType name="author">
+        <sequence>
+            <element name="author_id" type="tns:author_id"/>
+            <element name="author_name" type="string"/>
+        </sequence>
+    </complexType>
+    <complexType name="genre">
+        <sequence>
+            <element name="genre_id" type="tns:genre_id"/>
+            <element name="genre_name" type="string"/>
+        </sequence>
+    </complexType>
+    <simpleType name="id">
+        <restriction base="tns:id">
+            <pattern value="\w{1,20}"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="author_id">
+        <restriction base="tns:author_id">
+            <pattern value="\w{1,20}"/>
+        </restriction>
+    </simpleType>
+    <simpleType name="genre_id">
+        <restriction base="tns:genre_id">
+            <pattern value="\w{1,20}"/>
+        </restriction>
+    </simpleType>
+    <element name="name">
+        <simpleType>
+            <restriction base="string"/>
+        </simpleType>
+    </element>
+    <element name="author_name">
+        <simpleType>
+            <restriction base="string"/>
+        </simpleType>
+    </element>
+    <element name="genre_name">
+        <simpleType>
+            <restriction base="string"/>
+        </simpleType>
+    </element>
+</schema>
